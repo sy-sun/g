@@ -1,1 +1,166 @@
-howllo
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>防火门演示</title>
+</head>
+	
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+/* 头部样式 */
+.header {
+  background-color: #f1f1f1;
+  text-align: center;
+}
+
+/* 导航条 */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+ 
+/* 导航链接 */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+ 
+/* 链接 - 修改颜色 */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+	
+
+</style>
+
+<body>
+	
+<div class="header">
+<img alt="" src="https://i.loli.net/2019/10/14/N2q7AICD4ylV1Le.jpg" width="658" height="400" id="g"> 
+<p id="1001"></p>
+<p id="1002"></p>
+<p id="1003"></p>
+<p id="1004"></p>
+<p id="1005"></p>
+<p id="1006"></p>
+
+</div>
+	
+<div class="topnav">
+<a onclick="door1()">门1</a>
+<a onclick="door2()">门2</a>
+<a onclick="door3()">门3</a>
+<a onclick="door4()">门4</a>
+<a onclick="dooroff()">火警启动</a>
+<a onclick="dooron()">火警复位</a>
+</div>
+	
+<script>
+function door1() {
+	
+
+	
+	var a= document.getElementById("g");
+	  if (a.getAttribute("src") == "https://i.loli.net/2019/10/14/N2q7AICD4ylV1Le.jpg") {
+        a.setAttribute("src", "https://i.loli.net/2019/10/14/mYOy6dTIkivotnR.jpg");     
+    } 
+	else { 
+        a.setAttribute("src", "https://i.loli.net/2019/10/14/mYOy6dTIkivotnR.jpg"); 
+    }
+	
+}
+</script>
+	
+<script>
+function door2() {
+
+	
+	
+	var a= document.getElementById("g");
+	  if (a.getAttribute("src") == "https://i.loli.net/2019/10/14/N2q7AICD4ylV1Le.jpg") {
+        a.setAttribute("src", "https://i.loli.net/2019/10/14/I5Mc8oAUGVXgyz6.jpg");     
+    } 
+	else { 
+        a.setAttribute("src", "https://i.loli.net/2019/10/14/I5Mc8oAUGVXgyz6.jpg"); 
+    }
+	}
+</script>
+	
+<script>
+function door3() {
+	
+		var a= document.getElementById("g");
+	  if (a.getAttribute("src") == "https://i.loli.net/2019/10/14/N2q7AICD4ylV1Le.jpg") {
+        a.setAttribute("src", "https://i.loli.net/2019/10/14/nc2fFDWGVzbXuUA.jpg");     
+    } 
+	else { 
+        a.setAttribute("src", "https://i.loli.net/2019/10/14/nc2fFDWGVzbXuUA.jpg"); 
+    }
+	
+	
+}
+</script>	
+	
+
+
+<script>
+function door4() {
+	
+			var a= document.getElementById("g");
+	  if (a.getAttribute("src") == "https://i.loli.net/2019/10/14/N2q7AICD4ylV1Le.jpg") {
+        a.setAttribute("src", "https://i.loli.net/2019/10/14/K1xhp7THRi8vab9.jpg");     
+    } 
+	else { 
+        a.setAttribute("src", "https://i.loli.net/2019/10/14/K1xhp7THRi8vab9.jpg"); 
+    }
+	
+ }
+</script>
+
+
+<script>
+function dooroff() {
+	
+	
+	var a= document.getElementById("g");
+	  if (a.getAttribute("src") == "https://i.loli.net/2019/10/14/N2q7AICD4ylV1Le.jpg") {
+        a.setAttribute("src", "https://i.loli.net/2019/10/14/N2q7AICD4ylV1Le.jpg");     
+    } 
+	else { 
+        a.setAttribute("src", "https://i.loli.net/2019/10/14/N2q7AICD4ylV1Le.jpg"); 
+    }
+}
+	
+</script>
+
+
+<script>
+function dooron() {
+	
+	
+		var a= document.getElementById("g");
+	  if (a.getAttribute("src") == "https://i.loli.net/2019/10/14/N2q7AICD4ylV1Le.jpg") {
+        a.setAttribute("src","https://i.loli.net/2019/10/14/K1xhp7THRi8vab9.jpg");     
+    } 
+	else { 
+        a.setAttribute("src","https://i.loli.net/2019/10/14/K1xhp7THRi8vab9.jpg"); 
+    }
+	
+	}
+</script>
+
+
+</body>
+</html>
